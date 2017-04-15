@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/activeadmin/activeadmin.git
-  revision: 66a07283887293b82b3a7f0a86c516eaa85db0c0
+  revision: d4473e90787426833c8d261e8e9c864dd504e3ca
   specs:
     activeadmin (1.0.0.pre5)
       arbre (>= 1.1.1)
@@ -97,7 +97,7 @@ GEM
       actionpack (>= 4.1, < 5.1)
       activesupport (>= 4.1, < 5.1)
     i18n (0.8.1)
-    inherited_resources (1.7.0)
+    inherited_resources (1.7.1)
       actionpack (>= 3.2, < 5.1)
       has_scope (~> 0.6)
       railties (>= 3.2, < 5.1)
@@ -148,6 +148,7 @@ GEM
       cocaine (~> 0.5.5)
       mime-types
       mimemagic (= 0.3.0)
+    pg (0.20.0)
     polyamorous (1.3.1)
       activerecord (>= 3.0)
     puma (3.8.2)
@@ -244,6 +245,7 @@ DEPENDENCIES
   jquery-rails
   listen (~> 3.0.5)
   paperclip (~> 4.3, >= 4.3.6)
+  pg
   puma (~> 3.0)
   rails (~> 5.0.2)
   sass-rails (~> 5.0)
