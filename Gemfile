@@ -23,6 +23,7 @@ gem 'devise', '~> 4.2'
 gem 'activeadmin', github: 'activeadmin'
 gem 'inherited_resources', '~> 1.7'
 gem 'active_skin'
+gem 'paperclip', '~> 5.2', '>= 5.2.1'
 
 gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
