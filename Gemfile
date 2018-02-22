@@ -6,7 +6,7 @@ git_source(:github) do |repo_name|
 end
 
 gem 'rails', '~> 5.0.2'
-
+#Test
 group :development, :test do
   gem 'sqlite3'
  end
